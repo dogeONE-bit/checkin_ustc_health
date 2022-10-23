@@ -12,3 +12,10 @@
    ![在这里插入图片描述](images/secret1.png)
 2. 进入setting->secrets->action->new repository secret，name为COOKIE，value是咱们前面获得的cookie值
    ![在这里插入图片描述](images/secret2.png)
+
+## 开启Action
+   点击action->I understand my workflows, go ahead and enable them（绿色按钮）
+   
+## 测试运行
+   点击run workflow
+   ![在这里插入图片描述](images/test.png)
