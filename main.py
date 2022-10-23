@@ -25,8 +25,7 @@ if __name__ == "__main__":
     browser.find_element(By.XPATH,'//*[@id="password"]').send_keys(password)
     button_login = browser.find_element(By.XPATH,'//*[@id="login"]')
     button_login.click()
-    locator2 = (By.XPATH, '//*[@id="report-submit-btn-a24"]')
-    WebDriverWait(browser, 3, 0.3).until(EC.presence_of_element_located(locator2))
+    
     button2 = browser.find_element(By.XPATH, '//*[@id="report-submit-btn-a24"]')
     button2.click()
     browser.close()
