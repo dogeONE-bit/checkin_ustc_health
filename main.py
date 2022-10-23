@@ -19,15 +19,6 @@ if __name__ == "__main__":
     #browser = webdriver.Chrome()  # 声明浏览器
     url = 'https://passport.ustc.edu.cn/login?service=https%3A%2F%2Fweixine.ustc.edu.cn%2F2020%2Fcaslogin'
     browser.get(url)#打开浏览器预设网址
-    locator1 = (By.XPATH, '//*[@id="username"]')
-    WebDriverWait(browser, 3, 0.3).until(EC.presence_of_element_located(locator1))
-    browser.find_element(By.XPATH,'//*[@id="username"]').send_keys(username)
-    browser.find_element(By.XPATH,'//*[@id="password"]').send_keys(password)
-    button_login = browser.find_element(By.XPATH,'//*[@id="login"]')
-    button_login.click()
-    locator2 = (By.XPATH, '//*[@id="report-submit-btn-a24"]')
-    WebDriverWait(browser, 3, 0.3).until(EC.presence_of_element_located(locator2))
-    button2 = browser.find_element(By.XPATH, '//*[@id="report-submit-btn-a24"]')
-    button2.click()
+    
     browser.close()
     browser.quit()
