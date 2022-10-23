@@ -9,7 +9,7 @@
 
 ## 获取cookie值，并填入secrets
 1. 获取cookie值，进入这个中国科学技术大学健康打开平台，登陆完毕后按F12进入开发者工具，点击刷新获取home中的cookie值
-   ![在这里插入图片描述](images/secret1.png)
+   ![在这里插入图片描述](images/secret.png)
 2. 进入setting->secrets->action->new repository secret，name为COOKIE，value是咱们前面获得的cookie值
    ![在这里插入图片描述](images/secret2.png)
 
