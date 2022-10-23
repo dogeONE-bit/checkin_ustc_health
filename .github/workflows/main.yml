@@ -39,6 +39,7 @@ jobs:
         env:
           USERNAME: ${{ secrets.USERNAME }}
           PASSWORD: ${{ secrets.PASSWORD }}
+          COOKIE: ${{ secrets.COOKIE }}
         run: python3 ./main.py
           
     
