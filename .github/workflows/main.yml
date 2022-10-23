@@ -39,7 +39,7 @@ jobs:
         env:
           USERNAME: ${{ secrets.USERNAME }}
           PASSWORD: ${{ secrets.PASSWORD }}
-          run: python3 ./main.py
+        run: python3 ./main.py
           
     
       
