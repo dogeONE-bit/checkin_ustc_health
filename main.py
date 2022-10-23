@@ -81,7 +81,6 @@ if __name__ == "__main__":
     for cookie in cookielist:
         if 'expiry' in cookie:
             del cookie['expiry']
-    print(cookielist)
 
     for cookie in cookielist:
         if cookie["name"] in ['laravel_session', 'XSRF-TOKEN','PHPSESSID']:
