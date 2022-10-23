@@ -1,6 +1,6 @@
 # checkin_ustc_health
 ## 简介
-该项目能够实现中科大健康打开平台的自动签到
+该项目能够实现中科大健康打卡平台的自动签到
 
 ## 将项目fork到自己的仓库
 1. 打开 https://github.com/dogeONE-bit/checkin_ustc_health
